@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getTextCharacteristic() {
-        binding.text.text = Singleton.instance.getHaracter()
+        binding.text.text = Singleton.getHaracter()
     }
+
 }
