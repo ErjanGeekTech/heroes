@@ -2,11 +2,12 @@ package com.example.heroes.buidler
 
 import android.graphics.Color
 
-  class Configuration (
-    val latency: Int,
-    val userColor: Int,
-    val sensitivity: Int
+class Configuration(
+    val latency: Int = 0,
+    val userColor: Int = 0,
+    val sensitivity: Int = 0
 ) {
+
 
     inner class Builder() {
         var latency: Int = 200
